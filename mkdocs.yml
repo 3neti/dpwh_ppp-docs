@@ -1,0 +1,85 @@
+site_name: DPWH PPP Documentation
+site_description: Public-Private Partnership documentation for DPWH projects
+site_url: https://dpwh-ppp.docs
+site_author: DPWH PPP Team
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.footer
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - Key Documents:
+    - Executive Brief: Executive_Brief.md
+    - Briefer: Briefer.md
+    - Concept Note: Concept_Note.md
+  - Project Planning:
+    - Feasibility Study Outline: Feasibility_Study_Outline.md
+    - Swiss Challenge Timeline: Swiss_Challenge_Timeline.md
+    - Fee Schedule: Fee_Schedule.md
+  - Legal & Regulatory:
+    - Legal Framework: Legal_Framework.md
+    - Concession Agreement Draft: Concession_Agreement_Draft.md
+    - Cover Letter DPWH: Cover_Letter_DPWH.md
+    - NEDA ICC Issue Paper: NEDA_ICC_Issue_Paper.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
