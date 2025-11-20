@@ -18,7 +18,9 @@ Manila, Philippines
 
 Honorable Secretary [Last Name]:
 
-We respectfully submit for the consideration of the Department of Public Works and Highways (DPWH) our Unsolicited Public-Private Partnership (PPP) Proposal for the design, financing, development, operation, and maintenance of an **AI-Powered Independent Verification & Compliance Auditor (IVCA)**—a nationwide digital integrity and monitoring system envisioned to support DPWH's procurement and infrastructure project governance.
+We respectfully submit for the consideration of the Department of Public Works and Highways (DPWH) our Unsolicited Public-Private Partnership (PPP) Proposal for the design, financing, development, operation, and maintenance of an **AI-Powered Independent Verification & Compliance Auditor (IVCA)**—a nationwide digital verification service system envisioned to support DPWH's procurement and infrastructure project governance.
+
+**Important clarification:** The IVCA will provide independent verification services only and will not be a party to any construction contracts between DPWH and contractors. All contractual obligations, enforcement, and decision-making authority will remain exclusively with DPWH and the respective contractors.
 
 This proposed IVCA platform is designed to:
 

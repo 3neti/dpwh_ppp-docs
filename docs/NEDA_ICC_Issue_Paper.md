@@ -36,6 +36,8 @@ The IVCA is a nationwide AI-enabled verification and compliance auditing system 
 
 The IVCA will operate as a third-party, SGS-style independent verification body, built and funded under an Unsolicited Public-Private Partnership (PPP) with zero cost to the government.
 
+**Critical Note:** IVCA is not a party to construction contracts between DPWH and contractors. All contractual obligations, enforcement, and decision-making authority remain exclusively with DPWH and contractors. IVCA provides verification services and data only.
+
 ---
 
 ## 5. Rationale and Problem Statement
@@ -96,11 +98,13 @@ Contract monitoring schedules and cost structures are automatically analyzed.
 
 ### 7.4 Construction Monitoring
 
-AI verifies geotagged photos/videos, detects completion percentages, and flags slippage.
+AI verifies geotagged photos/videos, detects completion percentages, and flags slippage. Verification data is provided to DPWH/COA for decision-making.
 
 ### 7.5 Reporting and Audit Support
 
 Automated, auditable logs for DPWH, NEDA, COA, and PPP Center.
+
+**Important:** All services are verification and advisory only. IVCA does not approve payments, enforce contracts, or make binding decisions. All such authority remains with DPWH and relevant government agencies.
 
 ---
 

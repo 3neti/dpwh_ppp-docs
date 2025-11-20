@@ -35,6 +35,7 @@
 - AI-powered system for bid document review, tender evaluation, and contract monitoring
 - Independent verification services, contractor-funded, under PPP
 - Integration with existing DPWH workflows and systems
+- **Not a party to construction contracts** - provides verification data only, with all contractual obligations remaining between DPWH and contractors
 
 ### 2.2 Project Objectives
 - Enhance transparency and integrity in DPWH procurement
@@ -166,8 +167,9 @@
 
 ### 6.2 Consistency with RA 9184 (Procurement Law)
 - Clarification that DPWH retains all award decisions
-- IVCA as a support/assistive system, not a decision-maker
+- IVCA as a support/assistive system, not a decision-maker or contract party
 - Legal justification for independent verification layer
+- Confirmation that IVCA is not party to construction contracts between DPWH and contractors
 
 ### 6.3 COA, NEDA, and PPP Center Considerations
 - COA acceptance of AI-assisted verification and digital audit trails

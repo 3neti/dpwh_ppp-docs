@@ -76,6 +76,8 @@ Instead, they serve as:
 - Compliance layers, and
 - Evaluation support tools for the procuring entity.
 
+**Critical Clarification:** The IVCA is not a party to any construction contracts between DPWH and contractors. All contractual obligations, rights, enforcement, and liabilities remain exclusively between DPWH and the winning contractor. IVCA provides independent verification data only.
+
 The IVCA does not replace nor modify the role of:
 - BAC
 - TWG
@@ -88,13 +90,14 @@ The IVCA does not replace nor modify the role of:
 
 | Function | RA 9184 | IVCA Role |
 |----------|---------|------------|
-| Bid preparation | Allowed | AI assists in fairness & cost analysis |
+| Bid preparation | Allowed | AI assists in fairness & cost analysis (advisory only) |
 | Bid evaluation | BAC/TWG responsibility | IVCA produces analysis; gov't retains decision-making |
 | Award | HOPE | No role in award decisions |
-| Contract monitoring | PMO/COA | AI enhances verification; gov't retains final approval |
-| Payments | DBM/COA | IVCA only validates milestone evidence |
+| Contract monitoring | PMO/COA | AI provides verification data; gov't retains final approval |
+| Payments | DBM/COA | IVCA provides verification data only; payment decisions remain with DPWH/COA |
+| Contract enforcement | DPWH/Contractor | IVCA has no role; not a party to construction contracts |
 
-The IVCA functions as a **technical assistive system**, not a procurement authority.
+The IVCA functions as a **technical assistive and verification system**, not a procurement authority, contract party, or enforcement agent. All contractual obligations remain between DPWH and contractors.
 
 ---
 

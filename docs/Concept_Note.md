@@ -27,9 +27,11 @@ A Philippine-owned technology company specializing in:
 
 This concept note proposes an **AI-powered Independent Verification & Compliance Auditor (IVCA)** as an Unsolicited Public-Private Partnership (PPP) for the Department of Public Works and Highways (DPWH).
 
-The IVCA will act as a **neutral, third-party verifier**—similar to SGS's globally accepted model for inspection and verification—ensuring fairness, transparency, accuracy, and cost-reasonableness in all stages of DPWH procurement and contract execution.
+The IVCA will act as a **neutral, third-party verifier**—similar to SGS's globally accepted model for inspection and verification—providing independent verification services to support fairness, transparency, accuracy, and cost-reasonableness in all stages of DPWH procurement and contract execution.
 
-The project **requires no funding from DPWH or the national government**.  
+**Important:** The IVCA does not create, modify, or enforce contractual obligations between DPWH and contractors. All construction contract obligations remain exclusively between DPWH and the winning contractor. IVCA provides verification data and analytics only; all contractual decisions rest with DPWH.
+
+The project **requires no funding from DPWH or the national government**.
 Instead, revenues are generated through contractor-funded verification fees, following a transparent, regulated, Swiss-Challenge-compliant concession model.
 
 The system uses advanced AI to strengthen DPWH's capacity to detect:
@@ -127,7 +129,9 @@ Via upload or mobile app:
 - Detect percentage completion using AI vision
 - Flag slippage
 - Compare with contracted timelines
-- Validate payment requests
+- Provide verification data for payment requests (decision authority remains with DPWH/COA)
+
+**Note:** IVCA provides verification services only. All payment approvals, contract enforcement, and decisions regarding compliance remain the sole authority of DPWH and relevant government agencies.
 
 ### 6.5 Compliance & Audit Support
 

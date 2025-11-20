@@ -6,9 +6,11 @@
 
 ## What is the Project?
 
-The **AI-Powered Independent Verification & Compliance Auditor (IVCA)** is a nationwide, zero-cost-to-government digital infrastructure system that uses Artificial Intelligence (AI) to strengthen the integrity, speed, and accuracy of DPWH procurement and construction contract monitoring.
+The **AI-Powered Independent Verification & Compliance Auditor (IVCA)** is a nationwide, zero-cost-to-government digital infrastructure system that uses Artificial Intelligence (AI) to provide independent verification services supporting the integrity, speed, and accuracy of DPWH procurement and construction contract monitoring.
 
-It functions as a third-party verification body—similar to global models like SGS—that ensures fairness, cost reasonableness, non-collusion, and proper implementation of projects funded through public infrastructure budgets.
+It functions as a third-party verification body—similar to global models like SGS—that provides verification data to support fairness, cost reasonableness, collusion detection, and proper implementation of projects funded through public infrastructure budgets.
+
+**Important:** IVCA is not a party to construction contracts. All contractual obligations remain between DPWH and contractors. IVCA provides verification services only; all decisions rest with DPWH.
 
 The system is proposed through an Unsolicited Public-Private Partnership (PPP) under RA 7718, fully funded and operated by the private proponent.
 
@@ -44,11 +46,11 @@ Automatically generates Gantt charts, milestones, and risk assessments.
 
 ### 4. Construction Monitoring
 
-Uses AI computer vision to verify progress photos/videos, detect slippage, and validate milestone-based payment requests.
+Uses AI computer vision to verify progress photos/videos, detect slippage, and provide verification data for milestone-based payment decisions (approval authority remains with DPWH/COA).
 
 ### 5. Audit Support
 
-Provides COA-ready audit logs and forensic-level documentation.
+Provides COA-ready audit logs and forensic-level documentation. All verification data is advisory only; decisions remain with government authorities.
 
 ---
 

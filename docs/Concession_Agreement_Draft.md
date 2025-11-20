@@ -49,8 +49,9 @@ For purposes of this Agreement, the following terms shall have the meanings assi
 
 - **"Project"** – The AI-Powered Independent Verification & Compliance Auditor (IVCA) PPP project as defined in the approved Feasibility Study and this Agreement.
 - **"Concession"** – The exclusive right granted to the Concessionaire to implement, operate, and maintain the IVCA during the Concession Period.
-- **"Verification Services"** – AI-enabled evaluation, integrity checks, cost reasonableness assessment, milestone validation, and compliance analytics for DPWH procurement and contract implementation.
-- **"Contractor-Funded Fees"** – Fees collected from bidders or winning contractors, in accordance with the Fee Schedule approved by DPWH.
+- **"Verification Services"** – AI-enabled evaluation, integrity checks, cost reasonableness assessment, milestone validation, and compliance analytics for DPWH procurement and contract implementation. These services are advisory and informational only; they do not create, modify, or enforce contractual obligations.
+- **"Contractor-Funded Fees"** – Fees collected from bidders or winning contractors for verification services, in accordance with the Fee Schedule approved by DPWH.
+- **"Construction Contracts"** – Agreements between DPWH and contractors for infrastructure projects. The Concessionaire is not a party to these contracts.
 - **"Effective Date"** – The date this Agreement becomes legally binding following signing and fulfillment of conditions precedent.
 - **"Concession Period"** – The duration during which the Concessionaire shall operate the Project.
 - **"DPWH Data"** – Any data, documents, or digital materials provided by DPWH for Project operations.
@@ -61,13 +62,19 @@ For purposes of this Agreement, the following terms shall have the meanings assi
 
 ## ARTICLE II — PROJECT SCOPE
 
+### 2.0 Nature of Services
+
+**The Concessionaire provides independent verification services only.** The Concessionaire is not a party to any construction contracts between DPWH and contractors. All contractual obligations, enforcement, approvals, payments, and liabilities related to construction contracts remain exclusively between DPWH and the respective contractors.
+
+IVCA outputs are advisory and informational, provided to assist DPWH's decision-making processes. Final decisions on all procurement, contract management, and payment matters rest solely with DPWH and relevant government authorities.
+
 ### 2.1 Responsibilities of the Concessionaire
 
 The Concessionaire shall:
 
 1. Design, build, integrate, and deploy the IVCA platform.
 2. Finance 100% of development, operations, maintenance, and upgrades.
-3. Provide AI-assisted evaluation services, including:
+3. Provide AI-assisted evaluation and verification services, including:
    - Bid document analysis
    - Tender review
    - Cost reasonableness checks
@@ -77,7 +84,7 @@ The Concessionaire shall:
    - Gantt chart generation
    - Slippage detection
    - Progress photo/video verification
-   - Milestone-based payment validation
+   - Milestone-based payment verification data (for DPWH/COA decision-making)
 5. Provide audit-grade logs and evidence for DPWH and COA.
 6. Ensure full compliance with:
    - RA 9184

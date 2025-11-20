@@ -7,7 +7,9 @@
 
 The Department of Public Works and Highways (DPWH) manages one of the largest and most complex procurement portfolios in the Philippine government. With thousands of infrastructure projects across the country, ensuring fair bidding, cost reasonableness, technical accuracy, and timely project execution remains a continuous challenge.
 
-The **AI-Powered Independent Verification & Compliance Auditor (IVCA)** is a zero-cost to government, PPP-driven solution that enhances DPWH procurement and contract management by integrating artificial intelligence, contract analytics, and automated compliance auditing.
+The **AI-Powered Independent Verification & Compliance Auditor (IVCA)** is a zero-cost to government, PPP-driven solution that provides independent verification services to support DPWH procurement and contract management through artificial intelligence, contract analytics, and automated compliance auditing.
+
+**Important:** IVCA is not a party to construction contracts between DPWH and contractors. All contractual obligations remain exclusively between DPWH and contractors. IVCA provides verification data and analytics to support decision-making, but all approvals and enforcement rest with DPWH.
 
 The proponent, **3NETI Research & Development OPC**, proposes to build, operate, and maintain this system under a concession model, with contractors—not the government—shouldering the verification fees.
 
@@ -81,16 +83,16 @@ Outputs include TWG-ready analytics and risk scoring.
 
 ---
 
-### 4.3 Contract Monitoring & Payment Validation
+### 4.3 Contract Monitoring & Payment Verification Data
 
 Upon award:
 - AI generates contract implementation schedules
 - Progress photos/videos undergo AI vision validation
-- Milestones are verified before payment
+- Milestones are verified and verification data provided to DPWH/COA
 - Project slippage or risk is flagged early
 - Gantt charts are updated dynamically
 
-This provides DPWH with transparent, real-time insights.
+This provides DPWH with transparent, real-time verification insights. **All payment approvals remain the sole authority of DPWH and COA.**
 
 ---
 
