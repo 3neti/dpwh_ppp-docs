@@ -45,6 +45,7 @@ nav:
     - Swiss Challenge Timeline: Swiss_Challenge_Timeline.md
     - Fee Schedule: Fee_Schedule.md
     - Revenue Projection: Revenue_Projection.md
+    - System Data Flow Diagram: System_Data_Flow_Diagram.md
   - Legal & Regulatory:
     - Legal Framework: Legal_Framework.md
     - Concession Agreement Draft: Concession_Agreement_Draft.md
@@ -61,7 +62,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_div_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -79,6 +80,10 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
 
 extra:
   social:
