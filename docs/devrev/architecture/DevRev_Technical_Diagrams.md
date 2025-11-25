@@ -1,4 +1,4 @@
-# DevRev Mermaid Diagrams
+# DevRev Technical Diagrams
 Version 1.0  
 Date: 2025-11-25
 
