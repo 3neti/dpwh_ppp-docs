@@ -51,6 +51,21 @@ nav:
     - Concession Agreement Draft: Concession_Agreement_Draft.md
     - Cover Letter DPWH: Cover_Letter_DPWH.md
     - NEDA ICC Issue Paper: NEDA_ICC_Issue_Paper.md
+  - DevRev System:
+    - Overview: devrev/index.md
+    - Table of Contents: devrev/DevRev_Table_of_Contents.md
+    - Architecture:
+      - Technical Architecture: devrev/architecture/DevRev_Technical_Architecture.md
+      - Mermaid Diagrams: devrev/architecture/DevRev_Mermaid_Diagrams.md
+    - Requirements:
+      - System Requirements (SRS): devrev/requirements/DevRev_SRS.md
+      - Glossary: devrev/requirements/DevRev_Glossary.md
+    - Development:
+      - Development Plan: devrev/development/DevRev_Development_Plan.md
+    - Pitch & Overview:
+      - Pitch Document: devrev/pitch/DevRev_Pitch_Document_DPWH.md
+    - Integration:
+      - Nova OIDC Integration: devrev/integration/DevRev_Nova_OIDC_ERD_and_Flow.md
 
 markdown_extensions:
   - admonition

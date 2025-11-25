@@ -13,6 +13,7 @@ The documentation includes:
 - **Key Documents**: Executive briefs, briefers, and concept notes
 - **Project Planning**: Feasibility studies, timelines, and fee schedules
 - **Legal & Regulatory**: Legal frameworks, concession agreements, and NEDA documentation
+- **DevRev System**: Development review system documentation including architecture, requirements, and integration guides
 - **Supporting Materials**: Presentations and PDF resources
 
 ## Getting Started
@@ -61,6 +62,12 @@ dpwh_ppp-docs/
 ├── docs/                    # Documentation source files
 │   ├── index.md            # Homepage
 │   ├── *.md                # Markdown documentation files
+│   ├── devrev/             # DevRev system documentation
+│   │   ├── architecture/   # Technical architecture & diagrams
+│   │   ├── requirements/   # SRS & glossary
+│   │   ├── development/    # Development plan
+│   │   ├── pitch/          # Executive pitch document
+│   │   └── integration/    # Nova OIDC integration
 │   ├── *.pdf               # PDF resources
 │   └── *.pptx              # Presentation files
 ├── mkdocs.yml              # MkDocs configuration

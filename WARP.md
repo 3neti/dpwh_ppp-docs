@@ -6,10 +6,22 @@ This MkDocs documentation site was created on 2025-11-20 for the DPWH Public-Pri
 
 ## Source Content
 
-All content was copied from `/Users/rli/Documents/DPWH/PPP/` including:
+### Original PPP Content
+Copied from `/Users/rli/Documents/DPWH/PPP/` including:
 - 10 Markdown files (*.md)
 - 10 PDF files (*.pdf)
 - 1 PowerPoint presentation (*.pptx)
+
+### DevRev System Documentation (Added 2025-11-25)
+Copied from `/Users/rli/Downloads/DevRev/` including:
+- DevRev_Technical_Architecture.md
+- DevRev_Mermaid_Diagrams.md
+- DevRev_SRS.md (System Requirements Specification)
+- DevRev_Glossary.md
+- DevRev_Development_Plan.md
+- DevRev_Pitch_Document_DPWH.md
+- DevRev_Nova_OIDC_ERD_and_Flow.md
+- DevRev_Table_of_Contents.md
 
 ## Template Reference
 
@@ -46,10 +58,17 @@ dpwh_ppp-docs/
 
 ## Navigation
 
-The site is organized into three main sections:
+The site is organized into four main sections:
 1. **Key Documents** - Executive-level materials
 2. **Project Planning** - Planning and timeline documents
 3. **Legal & Regulatory** - Legal framework and compliance
+4. **DevRev System** - Development review system documentation
+   - Overview and Table of Contents
+   - Architecture (Technical Architecture, Mermaid Diagrams)
+   - Requirements (SRS, Glossary)
+   - Development (Development Plan)
+   - Pitch & Overview (DPWH Pitch Document)
+   - Integration (Nova OIDC Integration)
 
 ## Usage
 
