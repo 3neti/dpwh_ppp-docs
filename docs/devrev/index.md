@@ -16,7 +16,7 @@ DevRev is a comprehensive system designed to streamline project monitoring, cert
 Technical architecture, system design, and visual diagrams showing how DevRev components interact.
 
 - [Technical Architecture](architecture/DevRev_Technical_Architecture.md) - Complete system structure and design principles
-- [Mermaid Diagrams](architecture/DevRev_Mermaid_Diagrams.md) - Visual architecture and process flow diagrams
+- [Technical Diagrams](architecture/DevRev_Technical_Diagrams.md) - Visual architecture and process flow diagrams
 
 ### 📋 Requirements
 System requirements, specifications, and terminology reference.
@@ -56,10 +56,6 @@ Integration guides and external system connections.
 2. Explore the [Technical Architecture](architecture/DevRev_Technical_Architecture.md) for system design
 3. Check the [Development Plan](development/DevRev_Development_Plan.md) for implementation roadmap
 4. Reference the [Glossary](requirements/DevRev_Glossary.md) for terminology
-
-## Complete Table of Contents
-
-For a comprehensive index of all sections and subsections, see the [DevRev Table of Contents](DevRev_Table_of_Contents.md).
 
 ---
 

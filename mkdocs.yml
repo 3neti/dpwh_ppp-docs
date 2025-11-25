@@ -53,10 +53,9 @@ nav:
     - NEDA ICC Issue Paper: NEDA_ICC_Issue_Paper.md
   - DevRev System:
     - Overview: devrev/index.md
-    - Table of Contents: devrev/DevRev_Table_of_Contents.md
     - Architecture:
       - Technical Architecture: devrev/architecture/DevRev_Technical_Architecture.md
-      - Mermaid Diagrams: devrev/architecture/DevRev_Mermaid_Diagrams.md
+      - Technical Diagrams: devrev/architecture/DevRev_Technical_Diagrams.md
     - Requirements:
       - System Requirements (SRS): devrev/requirements/DevRev_SRS.md
       - Glossary: devrev/requirements/DevRev_Glossary.md

@@ -15,13 +15,12 @@ Copied from `/Users/rli/Documents/DPWH/PPP/` including:
 ### DevRev System Documentation (Added 2025-11-25)
 Copied from `/Users/rli/Downloads/DevRev/` including:
 - DevRev_Technical_Architecture.md
-- DevRev_Mermaid_Diagrams.md
+- DevRev_Technical_Diagrams.md (renamed from Mermaid Diagrams)
 - DevRev_SRS.md (System Requirements Specification)
 - DevRev_Glossary.md
 - DevRev_Development_Plan.md
 - DevRev_Pitch_Document_DPWH.md
 - DevRev_Nova_OIDC_ERD_and_Flow.md
-- DevRev_Table_of_Contents.md
 
 ## Template Reference
 
@@ -63,8 +62,8 @@ The site is organized into four main sections:
 2. **Project Planning** - Planning and timeline documents
 3. **Legal & Regulatory** - Legal framework and compliance
 4. **DevRev System** - Development review system documentation
-   - Overview and Table of Contents
-   - Architecture (Technical Architecture, Mermaid Diagrams)
+   - Overview
+   - Architecture (Technical Architecture, Technical Diagrams)
    - Requirements (SRS, Glossary)
    - Development (Development Plan)
    - Pitch & Overview (DPWH Pitch Document)
