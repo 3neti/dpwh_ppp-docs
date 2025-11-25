@@ -195,10 +195,3 @@ sequenceDiagram
 
 ---
 
-## 5. How to Use These Diagrams
-
-- For **MkDocs**: enable the Mermaid plugin and paste these code blocks into your `.md` files.  
-- For **Mermaid Live Editor**: copy-paste any block into the editor to export PNG/SVG.  
-- For **PowerPoint / Keynote**: export each diagram as an image from Mermaid Live or your documentation tool, then insert into slides.
-
-These diagrams align with the **DevRev Technical Architecture** and will be referenced by the SRS, development plan, and DPWH pitch materials.

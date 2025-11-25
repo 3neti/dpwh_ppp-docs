@@ -69,11 +69,11 @@ erDiagram
     DEVREV_OIDC_IDENTITY {
         uuid id
         uuid user_id
-        string provider_name      // e.g. "nova-oidc"
-        string subject            // sub from Nova
-        string issuer             // iss from Nova
-        string email_claim        // email from Nova
-        string raw_claims_json    // optional
+        string provider_name
+        string subject
+        string issuer
+        string email_claim
+        string raw_claims_json
         datetime linked_at
         datetime last_login_at
     }
@@ -81,9 +81,9 @@ erDiagram
     DEVREV_OIDC_SESSION {
         uuid id
         uuid user_id
-        string session_id         // DevRev session identifier
-        string id_token_jti       // ID token unique id (if present)
-        string access_token_hash  // hash of access token (optional)
+        string session_id
+        string id_token_jti
+        string access_token_hash
         datetime login_at
         datetime expires_at
         boolean is_active
@@ -97,14 +97,13 @@ erDiagram
     }
 
     NOVA_OIDC_ISSUER {
-        string issuer             // https://auth.nova.example.com/
+        string issuer
         string jwks_uri
         string authorization_endpoint
         string token_endpoint
         string userinfo_endpoint
     }
 
-    %% Relationships
     DEVREV_USER ||--o{ DEVREV_USER_ROLE : "has many"
     DEVREV_ROLE ||--o{ DEVREV_USER_ROLE : "assigned to many users"
 
@@ -151,47 +150,47 @@ The following Mermaid sequence diagram shows the **authentication process** from
 sequenceDiagram
     participant U as User (Browser)
     participant DV as DevRev Web App
-    participant AS as Nova OIDC<br/>Authorization Server
+    participant AS as Nova OIDC Authorization Server
     participant API as DevRev API Backend
 
     Note over U,DV: 1. User initiates login
 
-    U->>DV: Access DevRev (e.g., /dashboard)
-    DV-->>U: 302 Redirect to Nova OIDC<br/>(/authorize?client_id=devrev...)
+    U->>DV: Access DevRev
+    DV-->>U: 302 Redirect to Nova OIDC
 
     Note over U,AS: 2. Nova OIDC authenticates the user
 
-    U->>AS: GET /authorize (with state + code_challenge)
-    AS->>U: Render login page (username/password,<br/>MFA, or biometric via Nova)
-    U->>AS: Submit credentials / complete login
-    AS-->>U: 302 Redirect back to DevRev<br/>(redirect_uri?code=XYZ&state=...)
+    U->>AS: GET /authorize with state and code_challenge
+    AS->>U: Render login page
+    U->>AS: Submit credentials and complete login
+    AS-->>U: 302 Redirect back to DevRev with code
 
     Note over DV,API: 3. DevRev exchanges code for tokens
 
-    U->>DV: GET redirect_uri with code + state
+    U->>DV: GET redirect_uri with code and state
     DV->>API: Send auth code for backend token exchange
-    API->>AS: POST /token (code, client_id, client_secret,<br/>code_verifier if PKCE)
-    AS-->>API: 200 OK {{ id_token, access_token, refresh_token }}
+    API->>AS: POST /token with code and credentials
+    AS-->>API: 200 OK with tokens
 
-    Note over API,DV: 4. DevRev verifies tokens & links identity
+    Note over API,DV: 4. DevRev verifies tokens and links identity
 
-    API->>AS: (Optional) GET /userinfo with access_token
-    AS-->>API: User claims (sub, email, name, roles, etc.)
+    API->>AS: Optional GET /userinfo with access_token
+    AS-->>API: User claims
 
-    API->>API: Verify signature, issuer, audience,<br/>nonce/state and token expiry
-    API->>API: Find existing DEVREV_OIDC_IDENTITY<br/>by (issuer, sub)
+    API->>API: Verify signature, issuer, audience
+    API->>API: Find existing DEVREV_OIDC_IDENTITY by issuer and sub
     alt Identity already linked
         API->>API: Load associated DEVREV_USER
     else First-time login
-        API->>API: Create DEVREV_USER<br/>and DEVREV_OIDC_IDENTITY link
+        API->>API: Create DEVREV_USER and DEVREV_OIDC_IDENTITY link
     end
 
-    API->>API: Create DEVREV_OIDC_SESSION<br/>(session_id, login_at, expires_at)
-    API-->>DV: Set secure session cookie / token
+    API->>API: Create DEVREV_OIDC_SESSION
+    API-->>DV: Set secure session cookie or token
 
     Note over U,DV: 5. User is now logged in to DevRev
 
-    DV-->>U: Render DevRev dashboard<br/>(projects, RAG status, etc.)
+    DV-->>U: Render DevRev dashboard
 ```
 
 ---
