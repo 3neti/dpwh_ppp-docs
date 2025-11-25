@@ -201,31 +201,31 @@ Once authenticated, DevRev uses its own session management. Optionally, DevRev c
 
 ```mermaid
 sequenceDiagram
-    participant U as User (Browser)
-    participant DV as DevRev Web App
-    participant API as DevRev API Backend
+    participant U as User
+    participant DV as DevRev App
+    participant API as DevRev API
     participant AS as Nova OIDC
 
-    Note over U,DV,API: Logged-in user calls a protected API
+Note over U,API: User calls protected API
 
-    U->>DV: Clicks View Project Details
-    DV->>API: GET /api/projects/ID with session cookie
+U->>DV: Click View Project
+DV->>API: GET API with session
 
-    API->>API: Validate session
-    alt Session valid
-        API->>API: Load DEVREV_USER with roles and memberships
-        API-->>DV: 200 OK with project details
-        DV-->>U: Render project page
-    else Session invalid or expired
-        API-->>DV: 401 Unauthorized
-        DV-->>U: Redirect to Nova OIDC login
-    end
+API->>API: Validate session
+alt Valid
+API->>API: Load user and roles
+API-->>DV: Return project data
+DV-->>U: Render page
+else Invalid
+API-->>DV: 401 Unauthorized
+DV-->>U: Redirect to login
+end
 
-    opt Optional OIDC Introspection or Re-check
-        API->>AS: POST /introspect or /userinfo with access_token
-        AS-->>API: Token status and user claims
-        API->>API: Update last_login_at or sync claims
-    end
+opt Optional check
+API->>AS: Introspect token
+AS-->>API: Token status
+API->>API: Update session
+end
 ```
 
 ---
@@ -254,15 +254,3 @@ sequenceDiagram
 
 ---
 
-## 6. How to Use This File
-
-- For **MkDocs**:  
-  - Save as `devrev-nova-oidc-erd-and-flow.md` and enable Mermaid support.
-- For **Diagram Export**:  
-  - Copy each Mermaid block into a Mermaid Live Editor to render and export as PNG/SVG.
-- For **Architecture Docs / PPTX**:  
-  - Export diagrams as images and embed them into your DevRev + Nova technical decks.
-
----
-
-This ERD and flow provide a clear **bridge** between DevRev’s internal data model and Nova’s OIDC-based identity, making it easy to implement a clean, secure, and extensible authentication integration.
