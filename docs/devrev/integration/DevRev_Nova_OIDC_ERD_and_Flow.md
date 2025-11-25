@@ -209,7 +209,7 @@ sequenceDiagram
     Note over U,DV,API: Logged-in user calls a protected API
 
     U->>DV: Clicks View Project Details
-    DV->>API: GET /api/projects/{id} with session cookie
+    DV->>API: GET /api/projects/ID with session cookie
 
     API->>API: Validate session
     alt Session valid
