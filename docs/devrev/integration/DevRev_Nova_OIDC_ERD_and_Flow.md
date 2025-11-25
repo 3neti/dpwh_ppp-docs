@@ -208,23 +208,23 @@ sequenceDiagram
 
     Note over U,DV,API: Logged-in user calls a protected API
 
-    U->>DV: Clicks "View Project Details"
-    DV->>API: GET /api/projects/{id}<br/>(with DevRev session cookie)
+    U->>DV: Clicks View Project Details
+    DV->>API: GET /api/projects/{id} with session cookie
 
-    API->>API: Validate session (DEVREV_OIDC_SESSION)
+    API->>API: Validate session
     alt Session valid
-        API->>API: Load DEVREV_USER + roles + memberships
-        API-->>DV: 200 OK {{ project details }}
+        API->>API: Load DEVREV_USER with roles and memberships
+        API-->>DV: 200 OK with project details
         DV-->>U: Render project page
-    else Session invalid / expired
+    else Session invalid or expired
         API-->>DV: 401 Unauthorized
         DV-->>U: Redirect to Nova OIDC login
     end
 
     opt Optional OIDC Introspection or Re-check
-        API->>AS: (Optional) POST /introspect or /userinfo<br/>with access_token
-        AS-->>API: Token status / user claims
-        API->>API: Optionally update last_login_at,<br/>sync claims, or revoke session
+        API->>AS: POST /introspect or /userinfo with access_token
+        AS-->>API: Token status and user claims
+        API->>API: Update last_login_at or sync claims
     end
 ```
 
